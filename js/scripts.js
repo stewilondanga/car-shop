@@ -38,6 +38,14 @@ var state_array = [];
 
 		 $('.region').each(function() {
 
+   if ($(this).text() != state_code) {
+
+		 $(this).closest("tr").hide();
+     }
+
+	 });
+  });
+
 
 
 var navigate = (function() {
