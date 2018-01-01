@@ -71,7 +71,10 @@ td {
   width: 220px;
 }
 
-
+.state_select,
+.state_select option {
+  padding: 5px 10px;
+}
 
     h1 {
     	font-family: helvetica;
