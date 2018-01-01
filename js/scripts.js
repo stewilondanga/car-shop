@@ -24,7 +24,12 @@ var state_array = [];
 
 	  });
 
-		
+		// Clear selection
+ $('.btn-clear').click(function() {
+   $('#events tr').show();
+ });
+
+
 
 var navigate = (function() {
 	$('.dd').toggle();
