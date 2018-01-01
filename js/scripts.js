@@ -66,6 +66,10 @@ var state_array = [];
    }
  }
 
+ function getCellValue(row, index) {
+   return $(row).children('td').eq(index).html();
+ }
+
  
 
 var navigate = (function() {
