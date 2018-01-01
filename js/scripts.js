@@ -46,6 +46,18 @@ var state_array = [];
 	 });
   });
 
+	$('th').click(function() {
+	   var table =  $(this).parents('table').eq(0);
+	   var rows = table.find('tr:gt(0)').toArray().sort(comparer($(this).index()))
+	   this.asc = !this.asc;
+	   if (!this.asc) {
+	     rows = rows.reverse();
+	   }
+	   for (var i = 0; i < rows.length; i++) {
+	     table.append(rows[i]);
+	   }
+	 })
+
 
 
 var navigate = (function() {
