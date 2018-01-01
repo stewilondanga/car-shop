@@ -20,7 +20,11 @@ var state_array = [];
      option += '<option value="' + state_array[i] + '">' + state_array[i] + '</option>';
    }
 
+	 $('.state_select').append(option);
 
+	  });
+
+		
 
 var navigate = (function() {
 	$('.dd').toggle();
