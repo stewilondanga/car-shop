@@ -29,7 +29,10 @@ var state_array = [];
    $('#events tr').show();
  });
 
+ // Filter table based on user input
+  $('.state_select').change(function() {
 
+		
 
 var navigate = (function() {
 	$('.dd').toggle();
