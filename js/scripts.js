@@ -36,7 +36,9 @@ var state_array = [];
 
 		 var state_code = $(this).val();
 
-		 
+		 $('.region').each(function() {
+
+
 
 var navigate = (function() {
 	$('.dd').toggle();
