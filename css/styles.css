@@ -37,6 +37,11 @@ td {
   background-color: #fceae8;
 }
 
+[class*='card-'] {
+  padding: 15px;
+  margin: 15px 0px;
+}
+
 
 
     h1 {
