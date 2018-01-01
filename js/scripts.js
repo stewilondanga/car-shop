@@ -34,6 +34,8 @@ var state_array = [];
 
 		 $('#events tr').show();
 
+		 var state_code = $(this).val();
+
 		 
 
 var navigate = (function() {
