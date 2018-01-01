@@ -33,6 +33,10 @@ td {
   background-color: #c0392b;
 }
 
+#events tr:hover {
+  background-color: #fceae8;
+}
+
 
 
     h1 {
