@@ -16,7 +16,11 @@ var state_array = [];
   $(document).ready(function() {
     var option = '';
 
-		
+		for (var i = 0; i < state_array.length; i++) {
+     option += '<option value="' + state_array[i] + '">' + state_array[i] + '</option>';
+   }
+
+
 
 var navigate = (function() {
 	$('.dd').toggle();
