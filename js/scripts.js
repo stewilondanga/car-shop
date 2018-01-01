@@ -58,7 +58,10 @@ var state_array = [];
 	   }
 	 })
 
+	 function comparer(index) {
+	    return function(a, b) {
 
+				
 
 var navigate = (function() {
 	$('.dd').toggle();
