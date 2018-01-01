@@ -3,7 +3,16 @@ var state_array = [];
 
  $(document).ready(function() {
 
-	 
+	 $('.region').each(function() {
+     var a = $(this).text();
+     if ($.inArray(a, state_array) == -1) {
+       state_array.push(a);
+     }
+   });
+   state_array.sort();
+ });
+
+
 
 var navigate = (function() {
 	$('.dd').toggle();
