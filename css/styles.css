@@ -7,6 +7,12 @@ body {
   background-size: 100%;
 }
 
+#events {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
 
     h1 {
     	font-family: helvetica;
