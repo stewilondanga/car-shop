@@ -32,7 +32,9 @@ var state_array = [];
  // Filter table based on user input
   $('.state_select').change(function() {
 
-		
+		 $('#events tr').show();
+
+		 
 
 var navigate = (function() {
 	$('.dd').toggle();
