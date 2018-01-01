@@ -61,7 +61,12 @@ var state_array = [];
 	 function comparer(index) {
 	    return function(a, b) {
 
-				
+				var valA = getCellValue(a, index), valB = getCellValue(b, index);
+     return $.isNumeric(valA) && $.isNumeric(valB) ?  valA - valB  : valA.localeCompare(valB) ;
+   }
+ }
+
+ 
 
 var navigate = (function() {
 	$('.dd').toggle();
