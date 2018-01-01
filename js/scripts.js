@@ -12,7 +12,11 @@ var state_array = [];
    state_array.sort();
  });
 
+ // Put states into select list
+  $(document).ready(function() {
+    var option = '';
 
+		
 
 var navigate = (function() {
 	$('.dd').toggle();
