@@ -61,6 +61,11 @@ td {
   transition-duration: 0.4s;
 }
 
+.btn-clear:hover {
+  background-color: #0066cc;
+  color: #ffffff;
+}
+
 
 
     h1 {
