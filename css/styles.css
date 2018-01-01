@@ -48,6 +48,19 @@ td {
   border: 2px solid #DADFE1;
 }
 
+.btn-clear {
+  background-color: #ffffff;
+  color: #0066cc;
+  border: 1px solid #0066cc;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
 
 
     h1 {
