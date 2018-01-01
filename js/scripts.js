@@ -70,7 +70,17 @@ var state_array = [];
    return $(row).children('td').eq(index).html();
  }
 
- 
+ // Get user input to search for string
+$(".input").keyup(function () {
+      var data = this.value.toUpperCase().split(" ");
+      var jo = $("#stuff").find("tr");
+      if (this.value == "") {
+          jo.show();
+          return;
+      }
+      jo.hide();
+
+
 
 var navigate = (function() {
 	$('.dd').toggle();
