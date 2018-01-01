@@ -17,6 +17,12 @@ td {
   padding: 0;
 }
 
+#events th,
+#events td {
+  padding: 15px;
+  text-align: left;
+}
+
 
 
     h1 {
