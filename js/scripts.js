@@ -1,3 +1,8 @@
+// Put states into array
+var state_array = [];
+
+
+
 var navigate = (function() {
 	$('.dd').toggle();
 	$('.dd_btn').click(function() {
