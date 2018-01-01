@@ -23,6 +23,12 @@ td {
   text-align: left;
 }
 
+#events th {
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #D35400;
+}
+
 
 
     h1 {
